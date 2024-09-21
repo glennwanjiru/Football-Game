@@ -136,6 +136,7 @@ GameObject:
   - component: {fileID: 79222646}
   - component: {fileID: 79222645}
   - component: {fileID: 79222644}
+  - component: {fileID: 79222650}
   m_Layer: 0
   m_Name: Enemy
   m_TagString: Untagged
@@ -263,11 +264,24 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 3.47, y: 0.502, z: 2.29}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.5, y: 1.5, z: 1.5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &79222650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 79222643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 484b10e4961aa974eb490ab6157aab00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 3
 --- !u!1 &161888988
 GameObject:
   m_ObjectHideFlags: 0
@@ -450,7 +464,7 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 833943058}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 0414753c71e665e4aa9a1ed4756e3fff, type: 2}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
@@ -541,7 +555,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a2148772afc591d4bb833a46b7cfa93d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
+  speed: 10
 --- !u!1 &1211016355
 GameObject:
   m_ObjectHideFlags: 0
