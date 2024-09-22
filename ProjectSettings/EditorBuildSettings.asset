@@ -4,5 +4,8 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Challenge 4/Challenge 4.unity
+    guid: bafab91dee6434fbcb28a5a16e78982f
   m_configObjects: {}
